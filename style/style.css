@@ -1,0 +1,11 @@
+.all-posts {
+  margin-top: 15px;
+}
+
+#post-submit-form {
+  margin-top: 15px;
+}
+
+#post-submit-form #btn-cancel {
+  margin-left: 5px;
+}
