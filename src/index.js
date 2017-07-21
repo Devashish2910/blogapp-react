@@ -11,6 +11,7 @@ import reducers from './reducers';
 //Components
 import PostsIndex from './components/posts-index';
 import NewPost from './components/new-post';
+import PostShow from './components/post-show';
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
