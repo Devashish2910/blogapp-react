@@ -9,3 +9,21 @@
 #post-submit-form #btn-cancel {
   margin-left: 5px;
 }
+
+.post-show {
+  margin-top: 15px;
+}
+
+.post-show #title {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.post-show #content {
+  margin-top: 13px;
+}
+
+.post-show #categories {
+  margin-top: 10px;
+  text-align: justify;
+}

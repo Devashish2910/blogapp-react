@@ -12,11 +12,18 @@ class PostsIndex extends Component {
   eachPost() {
     return _.map(this.props.allPosts, post => {
       return (
-        <li className="list-group-item" key={post.id}>
-         {post.title}
+        <li className="list-group-item" key={post.id} onClick={() => this.onPostClick(post)}>
+        <Link to={`/post/${post.id}`}>
+          {post.title}
+        </Link>
        </li>
       );
     })
+  }
+
+  onPostClick(post) {
+    const id = post.id;
+    this.props.history.push('/post/'+id);
   }
 
   render() {
