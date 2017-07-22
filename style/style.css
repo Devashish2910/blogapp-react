@@ -1,29 +1,27 @@
-.all-posts {
+.post-submit-form {
   margin-top: 15px;
 }
 
-#post-submit-form {
-  margin-top: 15px;
-}
-
-#post-submit-form #btn-cancel {
+.post-submit-form #btn-back {
   margin-left: 5px;
 }
-
-.post-show {
-  margin-top: 15px;
+.view-post-main{
+  margin-top: 10px;
 }
-
-.post-show #title {
-  margin-top: 15px;
+.view-post-main #title {
+  margin-top: 10px;
+  text-align: center;
   font-weight: bold;
+  font-family: monospace;
 }
 
-.post-show #content {
-  margin-top: 13px;
-}
-
-.post-show #categories {
+.view-post-main #content {
   margin-top: 10px;
   text-align: justify;
+  font-family: sans-serif;
+}
+
+.view-post-main #categories {
+  margin-top: 5px;
+  font-weight: normal;
 }
